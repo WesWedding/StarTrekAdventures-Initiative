@@ -3,7 +3,7 @@
 	"name": "sta-initiative",
 	"title": "Star Trek Adventures Initiative",
 	"description": "CombatTracker improvements for Star Trek Adventures. Depends on the 'Lancer Initiative' module by Bolts, which does most of the work.",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"authors": [
 		{ "name": "CoolcatFVTT", "url": "https://github.com/CoolcatFVTT/" }
 	],
@@ -19,7 +19,7 @@
 				"id": "sta",
 				"type": "system",
 				"manifest": "https://raw.githubusercontent.com/mkscho63/sta/master/src/system.json",
-				"compatibility": { "minimum": "1.1.6", "verified": "1.1.6" }
+				"compatibility": { "minimum": "1.1.6", "verified": "1.1.11" }
 			}
 		],
 		"requires": [
@@ -27,20 +27,20 @@
 				"id": "lib-wrapper",
 				"type": "module",
 				"manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
-				"compatibility": { "minimum": "1.12.7.2", "verified": "1.12.7.2" }
+				"compatibility": { "minimum": "1.12.7.2", "verified": "1.12.13.0" }
 			},
 			{
 				"id": "lancer-initiative",
 				"type": "module",
 				"manifest": "https://github.com/BoltsJ/lancer-initiative/releases/latest/download/module.json",
-				"compatibility": { "minimum": "25", "verified": "25" }
+				"compatibility": { "minimum": "25", "verified": "27" }
 			}
 		]
 	},
 	"compatibility": {
 		"minimum": "10",
-		"verified": "10.284",
-		"maximum": "10"
+		"verified": "11.315",
+		"maximum": "11"
 	},
 	"license": "LGPL 3.0",
 	"url": "https://github.com/CoolcatFVTT/StarTrekAdventures-Initiative",
